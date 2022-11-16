@@ -4,10 +4,10 @@ import moves.*;
 import ru.ifmo.se.pokemon.*;
 
 public class Lanturn extends Chinchou {
-    public Lanturn (String name, int level){
-        super(name,level);
-        setStats(125,58,58,76,76,67);
-        setType(Type.WATER,Type.ELECTRIC);
-        setMove(new Rest(), new BubbleBeam(),new TakeDown(), new EerieImpulse());
+    public Lanturn(String name, int level) {
+        super(name, level);
+        setStats(125, 58, 58, 76, 76, 67);
+        setType(Type.WATER, Type.ELECTRIC);
+        setMove(new Rest(), new BubbleBeam(), new TakeDown(), new EerieImpulse());
     }
 }
