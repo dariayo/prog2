@@ -8,6 +8,6 @@ public class Nuzleaf extends Seedot {
         super(name, level);
         setStats(70, 70, 40, 60, 40, 60);
         setType(Type.GRASS, Type.DARK);
-        setMove(new DoubleTeam(), new SwordsDance(), new Harden());
+        setMove(new Harden());
     }
 }
