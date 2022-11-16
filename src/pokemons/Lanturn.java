@@ -8,6 +8,6 @@ public class Lanturn extends Chinchou {
         super(name, level);
         setStats(125, 58, 58, 76, 76, 67);
         setType(Type.WATER, Type.ELECTRIC);
-        setMove(new Rest(), new BubbleBeam(), new TakeDown(), new EerieImpulse());
+        setMove(new EerieImpulse());
     }
 }
