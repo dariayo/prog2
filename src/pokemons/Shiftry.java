@@ -8,6 +8,6 @@ public class Shiftry extends Nuzleaf {
         super(name, level);
         setStats(90, 100, 60, 90, 60, 80);
         setType(Type.GRASS, Type.DARK);
-        setMove(new DoubleTeam(), new SwordsDance(), new Harden(), new LeafStorm());
+        setMove(new LeafStorm());
     }
 }
