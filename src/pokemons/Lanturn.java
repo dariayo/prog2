@@ -3,7 +3,7 @@ package pokemons;
 import moves.*;
 import ru.ifmo.se.pokemon.*;
 
-public class Lanturn extends Pokemon {
+public class Lanturn extends Chinchou {
     public Lanturn (String name, int level){
         super(name,level);
         setStats(125,58,58,76,76,67);
